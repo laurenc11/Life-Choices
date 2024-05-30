@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Choose Your Own Adventure Game</title>
+    <title>Choose Your Own Adventure</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="game-container">
-        <div id="story"></div>
-        <div id="choices"></div>
+    <div class="container">
+        <h1>Choose Your Own Adventure</h1>
+        <div id="adventure"></div>
         <div id="reflection" style="display: none;">
-            <h3>Reflection Task</h3>
-            <textarea id="reflectionText" rows="10" cols="50" placeholder="Write your reflection here..."></textarea>
-            <button id="saveReflection">Save Reflection</button>
-        </div>
-        <div id="summary" style="display: none;">
-            <h3>Your Life Summary</h3>
-            <p id="summaryText"></p>
-            <button id="downloadSummary">Download Summary</button>
+            <h2>Reflection Task</h2>
+            <p>Write your reflections on your journey:</p>
+            <textarea id="reflectionText" rows="4" cols="50"></textarea>
+            <button onclick="submitReflection()">Submit</button>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
