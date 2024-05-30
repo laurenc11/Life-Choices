@@ -37,3 +37,13 @@ body {
 .choice:hover {
     background: #0056b3;
 }
+
+#reflection textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#summary {
+    margin-top: 20px;
+}
